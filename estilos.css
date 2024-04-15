@@ -1,0 +1,125 @@
+
+body{background-color:#999999;
+    padding:0px 20px 20px 20px;
+    margin:10px 15px;
+    
+
+}
+body ::selection{
+    color:blueviolet;
+}
+
+p {
+    color:white;
+}
+p::first-letter  {
+    color:#FFADE7;
+    font-size:25px;
+}
+
+
+h1{
+    color:white;
+    background-color:#FFADE7 ;
+    font-family:Chiller;
+    font-size:50px;
+}
+
+.nav{
+
+    color:white;
+    background-color:#FFADE7 ;
+    font-family:chiller;
+    font-size:20px;   
+   
+
+
+}
+
+.nav li{
+    display:inline-block;
+
+}
+
+a{color:white;
+}
+.nav img{
+    height:70px;
+    width:60px;
+    display:inline-block;
+    margin:5px 5px;
+    border-radius:10px;
+}
+a:hover{
+    color:#00D8FF;
+
+}
+
+
+#acerca_de_mi img{
+    float:left;
+    margin:3px 8px;
+    height:130px;
+    width:160px;
+    border-radius:10px;
+
+
+}
+
+
+h2{
+    color:white;
+    background-color:#FFADE7 ;
+    font-family:Chiller;
+    font-size:30px;
+}
+
+label{color:white;
+}
+
+.form__input--enviar{
+    height:25px;
+    width:55px;
+    background:#FFADE7 ;
+    color:white;
+    font-size:15px;
+}
+
+h1:hover,
+h2:hover{
+    color:#00D8FF ;
+    
+}
+
+#pruebas{
+    height:100px;
+    width:300px;
+    border:2px solid black;
+    
+}
+
+
+
+
+
+#pruebas img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    
+
+}
+
+.form__textarea--mensaje,
+input{
+    height:20px;
+    width:190px;
+    bottom:0;
+}
+textarea:focus{
+    width:320px;
+    height:190px;
+}
+
+
+
