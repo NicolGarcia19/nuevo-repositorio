@@ -91,24 +91,6 @@ h2:hover{
     
 }
 
-#pruebas{
-    height:100px;
-    width:300px;
-    border:2px solid black;
-    
-}
-
-
-
-
-
-#pruebas img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    
-
-}
 
 .form__textarea--mensaje,
 input{
